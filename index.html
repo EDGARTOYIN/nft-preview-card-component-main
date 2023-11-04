@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-wi`dth, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body
+    class="grid h-screen place-content-center bg-very-dark-blue font-default-ff font-[400]"
+  >
+    <main>
+      <article
+        class="max-w-[19rem] rounded-xl bg-very-dark-blue-modi p-6 text-white md:max-w-[22]"
+      >
+        <a href="https://tailwindcomponents.com/cheatsheet/" target="_blank">
+          <section
+            class="group relative overflow-hidden rounded-md hover:bg-cyan-bg"
+          >
+            <img
+              class="max-w-[15] hover:mix-blend-overlay"
+              src="./images/image-equilibrium.jpg"
+              alt="hero"
+            />
+            <img
+              class="pointer-events-none invisible absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform group-hover:visible"
+              src="./images/icon-view.svg"
+              alt=""
+            />
+          </section>
+        </a>
+        <section class="mt-5 grid gap-3">
+          <h1 class="text-xl font-semibold hover:text-cyan-tail">
+            <a href="#">Equilibrium #3429</a>
+          </h1>
+          <p class="font-[400] leading-relaxed text-soft-blue">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div
+            class="flex items-center justify-between border-b-[0.1px] border-soft-blue pb-4"
+          >
+            <div class="flex items-center gap-2">
+              <img
+                class="inline-block"
+                src="./images/icon-ethereum.svg"
+                alt="eterum"
+              />
+              <span class="text-cyan-tail">0.041 ETH</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <img src="./images/icon-clock.svg" alt="clock" />
+              <span class="text-soft-blue">3 days left</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <img
+              class="max-w-[2rem]"
+              src="./images/image-avatar.png"
+              alt="profile"
+            />
+            <span class="text-soft-blue"
+              >Creation of
+              <span class="text-white hover:text-cyan-tail">
+                <a href="#">Jules Wyvern</a></span
+              >
+            </span>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
